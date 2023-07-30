@@ -1,0 +1,62 @@
+
+/*Filter*/
+
+.f-label{
+  display: inline-block;
+}
+
+#filter-Btn{
+  display: none;
+  visibility: hide;
+}
+
+
+/*btn*/
+.btn-bar>div>button{
+  margin: 4px;
+}
+
+.bi{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.bi-plus{
+  color: aqua;
+}
+
+.bi-circle{
+  color: green;
+}
+
+.bi-x-circle{
+  color: red;
+}
+
+/*table*/
+.table-wraper{
+  display: block;
+  max-height: 360px;
+  overflow:auto;
+  
+}
+
+.table>thead>tr>th{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.bi-pen-fill{
+  color: blue;
+}
+
+.bi-trash-fill{
+  color: red;
+}
+/*table for the popup*/
+#kurzBeschreibung{
+  width: 100%;
+}
+
+/*active tab*/
